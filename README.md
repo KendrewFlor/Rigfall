@@ -1,4 +1,4 @@
-# Rigfall
+# Rigfall (The game is not yet finished pa po, it is still under my development. I am adjusting some of the unity-related shenanigans. Thanks for recognizing)
 
 **Build by day. Defend the rig by night.**
 

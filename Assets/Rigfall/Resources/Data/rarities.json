@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "id": "common", "name": "Common", "color": "#B8C2C8", "wheelWeight": 55.0, "order": 0 },
+    { "id": "rare", "name": "Rare", "color": "#3FA7FF", "wheelWeight": 28.0, "order": 1 },
+    { "id": "epic", "name": "Epic", "color": "#B06CFF", "wheelWeight": 12.0, "order": 2 },
+    { "id": "legendary", "name": "Legendary", "color": "#FFB000", "wheelWeight": 4.5, "order": 3 },
+    { "id": "brilliant", "name": "Blowout Brilliant", "color": "#FF2BD6", "wheelWeight": 0.5, "order": 4 }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "items": [
+    { "id": "main-rig", "name": "Main Rig", "kind": "rig", "footprint": 3.2,
+      "description": "The heart of the pad. If it falls, the hitch is over. Upgrading it raises its integrity, its income and the tier your other buildings can reach.",
+      "model": "building-main-rig",
+      "tiers": [
+        { "options": [ { "id": "rig-t0", "name": "Drilling Rig", "description": "A land rig with a working derrick.", "cost": 0, "requiresRigTier": 0, "requires": "",
+          "hp": 500, "income": 3, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "rig-t1", "name": "Rig Floor Gunners", "description": "Integrity 750, +1 barrel at dawn, and a crew on the rig floor fires at nearby enemies.", "cost": 8, "requiresRigTier": 0, "requires": "",
+          "hp": 750, "income": 4, "damage": 10, "range": 10, "rate": 1.0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [ { "id": "rig-t2", "name": "Top Drive Package", "description": "Integrity 1000, +1 barrel at dawn, faster rig floor fire.", "cost": 14, "requiresRigTier": 1, "requires": "",
+          "hp": 1000, "income": 5, "damage": 14, "range": 11, "rate": 1.4, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [ { "id": "rig-t3", "name": "Super-Spec Rig", "description": "Integrity 1350, +1 barrel at dawn, flare cannon on the crown.", "cost": 22, "requiresRigTier": 2, "requires": "",
+          "hp": 1350, "income": 6, "damage": 22, "range": 12, "rate": 1.6, "splash": 2.0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] }
+      ] },
+
+    { "id": "pumpjack", "name": "Pumpjack", "kind": "house", "footprint": 1.4,
+      "description": "A beam pump nodding on an old well. Pays barrels every dawn.",
+      "model": "building-pumpjack",
+      "tiers": [
+        { "options": [ { "id": "pumpjack-t0", "name": "Pumpjack", "description": "+1 barrel at dawn.", "cost": 3, "requiresRigTier": 0, "requires": "",
+          "hp": 60, "income": 1, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "pumpjack-t1", "name": "Long-Stroke Unit", "description": "+2 barrels at dawn and sturdier.", "cost": 4, "requiresRigTier": 0, "requires": "",
+          "hp": 90, "income": 2, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "pumpjack-t2", "name": "Rod Pump Controller", "description": "+3 barrels at dawn.", "cost": 6, "requiresRigTier": 1, "requires": "",
+          "hp": 120, "income": 3, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] }
+      ] },
+
+    { "id": "tank-battery", "name": "Tank Battery", "kind": "mill", "footprint": 1.9,
+      "description": "Separators and stock tanks that gather the whole field's production.",
+      "model": "building-tank-battery",
+      "tiers": [
+        { "options": [ { "id": "tank-t0", "name": "Tank Battery", "description": "+2 barrels at dawn.", "cost": 6, "requiresRigTier": 0, "requires": "",
+          "hp": 140, "income": 2, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [
+          { "id": "vapor-recovery", "name": "Vapor Recovery Unit", "description": "+4 barrels at dawn.", "cost": 6, "requiresRigTier": 1, "requires": "",
+            "hp": 160, "income": 4, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false },
+          { "id": "fire-monitor", "name": "Fire Monitor", "description": "+2 barrels at dawn, and a water cannon that slows and pushes enemies.", "cost": 6, "requiresRigTier": 1, "requires": "",
+            "hp": 220, "income": 2, "damage": 6, "range": 9, "rate": 2.0, "splash": 1.6, "burn": 0, "slow": 0.4, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [
+          { "id": "tank-farm", "name": "Tank Farm", "description": "+6 barrels at dawn.", "cost": 10, "requiresRigTier": 2, "requires": "vapor-recovery",
+            "hp": 200, "income": 6, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false },
+          { "id": "deluge-skid", "name": "Deluge Skid", "description": "+3 barrels at dawn, stronger water cannon.", "cost": 10, "requiresRigTier": 2, "requires": "fire-monitor",
+            "hp": 320, "income": 3, "damage": 10, "range": 11, "rate": 2.4, "splash": 2.2, "burn": 0, "slow": 0.5, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] }
+      ] },
+
+    { "id": "derrick-tower", "name": "Derrick Tower", "kind": "tower", "footprint": 1.3,
+      "description": "A small derrick with a gunner on the monkeyboard. Upgrades split into long-range sniping or burning splash.",
+      "model": "building-derrick-tower",
+      "tiers": [
+        { "options": [ { "id": "tower-t0", "name": "Derrick Lookout", "description": "Shoots single targets, ground and air.", "cost": 4, "requiresRigTier": 0, "requires": "",
+          "hp": 140, "income": 0, "damage": 9, "range": 11, "rate": 1.2, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [
+          { "id": "crown-sniper", "name": "Crown Block Sniper", "description": "Very long range, big single hits.", "cost": 6, "requiresRigTier": 1, "requires": "",
+            "hp": 170, "income": 0, "damage": 26, "range": 17, "rate": 0.6, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true },
+          { "id": "flare-stack", "name": "Flare Stack", "description": "Burning splash damage on groups.", "cost": 6, "requiresRigTier": 1, "requires": "",
+            "hp": 170, "income": 0, "damage": 10, "range": 10, "rate": 1.0, "splash": 2.4, "burn": 3, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [
+          { "id": "monkeyboard-overwatch", "name": "Monkeyboard Overwatch", "description": "Extreme range and damage.", "cost": 10, "requiresRigTier": 2, "requires": "crown-sniper",
+            "hp": 210, "income": 0, "damage": 44, "range": 20, "rate": 0.65, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true },
+          { "id": "thermal-oxidizer", "name": "Thermal Oxidizer", "description": "Huge burning bursts.", "cost": 10, "requiresRigTier": 2, "requires": "flare-stack",
+            "hp": 210, "income": 0, "damage": 16, "range": 11, "rate": 1.1, "splash": 3.2, "burn": 6, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": true } ] }
+      ] },
+
+    { "id": "blast-wall", "name": "Blast Wall", "kind": "wall", "footprint": 1.0,
+      "description": "Steel blast panels across a lane. Enemies have to break through or go around.",
+      "model": "building-blast-wall",
+      "tiers": [
+        { "options": [ { "id": "wall-t0", "name": "Blast Wall", "description": "Blocks the lane.", "cost": 2, "requiresRigTier": 0, "requires": "",
+          "hp": 220, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [
+          { "id": "reinforced-berm", "name": "Reinforced Berm", "description": "Earth berm behind the panels: double integrity.", "cost": 3, "requiresRigTier": 0, "requires": "",
+            "hp": 450, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false },
+          { "id": "barbed-casing", "name": "Barbed Casing", "description": "Old casing joints with welded barbs: attackers take 8 damage per hit.", "cost": 3, "requiresRigTier": 0, "requires": "",
+            "hp": 300, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 8, "unit": "", "unitCount": 0, "unitBonus": 1, "canHitAir": false } ] }
+      ] },
+
+    { "id": "crew-camp", "name": "Crew Camp", "kind": "barracks", "footprint": 1.8,
+      "description": "Bunkhouses for the rig crew. Choose which crew moves in; they defend the area and follow your commands.",
+      "model": "building-crew-camp",
+      "tiers": [
+        { "options": [
+          { "id": "camp-roughneck", "name": "Roughnecks", "description": "Versatile melee crew.", "cost": 5, "requiresRigTier": 0, "requires": "",
+            "hp": 160, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "roughneck", "unitCount": 2, "unitBonus": 1, "canHitAir": false },
+          { "id": "camp-tong-hand", "name": "Tong Hands", "description": "Crowd control: knockback and slow.", "cost": 5, "requiresRigTier": 0, "requires": "",
+            "hp": 160, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "tong-hand", "unitCount": 2, "unitBonus": 1, "canHitAir": false },
+          { "id": "camp-chain-spinner", "name": "Chain Spinners", "description": "Area damage all around them.", "cost": 5, "requiresRigTier": 0, "requires": "",
+            "hp": 160, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "chain-spinner", "unitCount": 2, "unitBonus": 1, "canHitAir": false },
+          { "id": "camp-wildcatter", "name": "Wildcatters", "description": "Berserkers who heal allies when they fall.", "cost": 5, "requiresRigTier": 0, "requires": "",
+            "hp": 160, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "wildcatter", "unitCount": 2, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "camp-second-shift", "name": "Second Shift", "description": "+1 crew member.", "cost": 5, "requiresRigTier": 0, "requires": "",
+          "hp": 200, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 3, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "camp-veterans", "name": "Veteran Crew", "description": "Crew gets 30% more health and damage.", "cost": 8, "requiresRigTier": 1, "requires": "",
+          "hp": 240, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 3, "unitBonus": 1.3, "canHitAir": false } ] }
+      ] },
+
+    { "id": "perforation-range", "name": "Perforation Range", "kind": "barracks", "footprint": 1.8,
+      "description": "A test range for perforating guns. Trains ranged crews.",
+      "model": "building-perforation-range",
+      "tiers": [
+        { "options": [
+          { "id": "range-sniper", "name": "Wireline Snipers", "description": "Very long range, fragile.", "cost": 6, "requiresRigTier": 0, "requires": "",
+            "hp": 150, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "wireline-sniper", "unitCount": 2, "unitBonus": 1, "canHitAir": true },
+          { "id": "range-rivet", "name": "Rivet Gunners", "description": "Armoured, heavy shots.", "cost": 6, "requiresRigTier": 0, "requires": "",
+            "hp": 150, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "rivet-gunner", "unitCount": 2, "unitBonus": 1, "canHitAir": true },
+          { "id": "range-hunter", "name": "Kick Hunters", "description": "Bonus damage to elites and bosses.", "cost": 6, "requiresRigTier": 0, "requires": "",
+            "hp": 150, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "kick-hunter", "unitCount": 2, "unitBonus": 1, "canHitAir": true },
+          { "id": "range-flare", "name": "Flare Gunners", "description": "Burning splash damage.", "cost": 6, "requiresRigTier": 0, "requires": "",
+            "hp": 150, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "flare-gunner", "unitCount": 2, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [ { "id": "range-extra-crew", "name": "Extra Gun Crew", "description": "+1 gunner.", "cost": 6, "requiresRigTier": 0, "requires": "",
+          "hp": 190, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 3, "unitBonus": 1, "canHitAir": true } ] },
+        { "options": [ { "id": "range-premium", "name": "Premium Charges", "description": "Gunners get 30% more health and damage.", "cost": 9, "requiresRigTier": 1, "requires": "",
+          "hp": 230, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 3, "unitBonus": 1.3, "canHitAir": true } ] }
+      ] },
+
+    { "id": "company-office", "name": "Company Man's Office", "kind": "barracks", "footprint": 2.0,
+      "description": "The operator's representative on site. Hires powerful specialist contractors.",
+      "model": "building-company-office",
+      "tiers": [
+        { "options": [
+          { "id": "office-roughneck-bot", "name": "Iron Roughneck", "description": "Sturdy robotic frontline.", "cost": 8, "requiresRigTier": 0, "requires": "",
+            "hp": 200, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "iron-roughneck", "unitCount": 1, "unitBonus": 1, "canHitAir": false },
+          { "id": "office-medic", "name": "HSE Medic", "description": "Heals and shields allies.", "cost": 8, "requiresRigTier": 0, "requires": "",
+            "hp": 200, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "hse-medic", "unitCount": 1, "unitBonus": 1, "canHitAir": true },
+          { "id": "office-drone", "name": "Flare Drone", "description": "Anti-air and ground splash.", "cost": 8, "requiresRigTier": 0, "requires": "",
+            "hp": 200, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "flare-drone", "unitCount": 1, "unitBonus": 1, "canHitAir": true },
+          { "id": "office-buggy", "name": "Swamp Buggy Rider", "description": "Fast mobile striker.", "cost": 8, "requiresRigTier": 0, "requires": "",
+            "hp": 200, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "swamp-buggy", "unitCount": 1, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "office-second", "name": "Second Contractor", "description": "+1 contractor.", "cost": 8, "requiresRigTier": 1, "requires": "",
+          "hp": 260, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 2, "unitBonus": 1, "canHitAir": false } ] },
+        { "options": [ { "id": "office-senior", "name": "Senior Contractors", "description": "Contractors get 35% more health and damage.", "cost": 12, "requiresRigTier": 2, "requires": "",
+          "hp": 320, "income": 0, "damage": 0, "range": 0, "rate": 0, "splash": 0, "burn": 0, "slow": 0, "thorns": 0, "unit": "", "unitCount": 2, "unitBonus": 1.35, "canHitAir": false } ] }
+      ] }
+  ]
+}

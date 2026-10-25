@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": "bgm_menu", "title": "Shift Change", "mood": "Main menu" },
+    { "id": "bgm_day_desert", "title": "Pumpjack Waltz", "mood": "Day on the Permian Pad" },
+    { "id": "bgm_day_swamp", "title": "Board Road Blues", "mood": "Day in the Delta Swamp" },
+    { "id": "bgm_day_arctic", "title": "Ice Pad Hymn", "mood": "Day on the Arctic Slope" },
+    { "id": "bgm_day_offshore", "title": "Helideck at Dawn", "mood": "Day offshore" },
+    { "id": "bgm_night", "title": "Kick Alarm", "mood": "Night combat" },
+    { "id": "bgm_boss", "title": "Uncontrolled Flow", "mood": "Boss nights" },
+    { "id": "bgm_dawn", "title": "Sunrise Over the Crown", "mood": "Dawn and the reward wheel" },
+    { "id": "bgm_defeat", "title": "Plugged and Abandoned", "mood": "Defeat" }
+  ]
+}

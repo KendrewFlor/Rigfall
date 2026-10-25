@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": "t-welcome",
+      "title": "Welcome to the pad",
+      "text": "This is your Main Rig. Defend it by night, grow the field by day. Move with WASD or the left stick.",
+      "advanceOn": "move",
+      "count": 1
+    },
+    {
+      "id": "t-attack",
+      "title": "Swing the bit",
+      "text": "Attack with Left Mouse, J or the A button. Hold it to keep swinging. Give it a few swings now.",
+      "advanceOn": "attack",
+      "count": 3
+    },
+    {
+      "id": "t-pumpjack",
+      "title": "Barrels",
+      "text": "Barrels (top left) are your money. Walk onto a glowing slot marked Pumpjack and hold E (or X) to build. Pumpjacks pay out every dawn.",
+      "advanceOn": "build:pumpjack",
+      "count": 1
+    },
+    {
+      "id": "t-wall",
+      "title": "Block the lane",
+      "text": "Red arrows show where tonight's enemies come from. Build a Blast Wall slot across that lane.",
+      "advanceOn": "build:blast-wall",
+      "count": 1
+    },
+    {
+      "id": "t-tower",
+      "title": "Raise a tower",
+      "text": "Derrick Towers shoot anything in range, ground or air. Build one beside the lane.",
+      "advanceOn": "build:derrick-tower",
+      "count": 1
+    },
+    {
+      "id": "t-night",
+      "title": "Start the night",
+      "text": "When you're ready, hold N (or Y) to sound the night horn. Enemies only come when you call the night.",
+      "advanceOn": "night",
+      "count": 1
+    },
+    {
+      "id": "t-defend",
+      "title": "Hold the line",
+      "text": "Fight alongside your towers. Use your class ability with Right Mouse, K or the B button.",
+      "advanceOn": "dawn",
+      "count": 1
+    },
+    {
+      "id": "t-wheel",
+      "title": "Dawn and the wheel",
+      "text": "Every night you clear earns a spin of the reward wheel. Rarer segments give bigger rewards and permanent unlocks.",
+      "advanceOn": "wheelDone",
+      "count": 1
+    },
+    {
+      "id": "t-crew",
+      "title": "Hire a crew",
+      "text": "Build a Crew Camp and choose a crew. Then hold F (or the right bumper) to call nearby units to follow you, and release F to make them hold that spot.",
+      "advanceOn": "command",
+      "count": 1
+    },
+    {
+      "id": "t-done",
+      "title": "You're certified",
+      "text": "That's the job: build by day, defend by night, and it gets a little harder every night. Bosses come every 7th night. Good luck, engineer.",
+      "advanceOn": "night",
+      "count": 1
+    }
+  ]
+}

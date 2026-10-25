@@ -1,0 +1,100 @@
+name: Unity WebGL build and GitHub Pages
+
+# Builds the game in the cloud with GameCI (no Unity Editor needed on your computer) and
+# publishes it to GitHub Pages. It needs three repository secrets: UNITY_LICENSE (the
+# contents of your Unity Personal .ulf file), UNITY_EMAIL and UNITY_PASSWORD. Until they
+# exist the build is skipped with a notice. Setup: docs/CLOUD_BUILD.md.
+#
+# Never add a pull_request trigger here: the Unity secrets must not be exposed to PR code.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  licence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      ready: ${{ steps.check.outputs.ready }}
+    steps:
+      - id: check
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          if [ -n "$UNITY_LICENSE" ] && [ -n "$UNITY_EMAIL" ] && [ -n "$UNITY_PASSWORD" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Unity build skipped::Add the UNITY_LICENSE, UNITY_EMAIL and UNITY_PASSWORD secrets to build the game (see docs/CLOUD_BUILD.md)."
+          fi
+
+  build:
+    needs: licence
+    if: needs.licence.outputs.ready == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Gate on the repository checks
+        run: |
+          python3 tools/security_scan.py
+          python3 tools/validate_data.py
+          python3 blender/build_models.py --check
+
+      - name: Free disk space for the Unity image
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h /
+
+      - name: Build WebGL with Unity (GameCI)
+        uses: game-ci/unity-builder@4423ee75828dff56037d1d1cfdac6b68e3a6ba00 # v4.8.2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: WebGL
+          unityVersion: auto            # read from ProjectSettings/ProjectVersion.txt
+          buildMethod: Rigfall.EditorTools.BuildScript.BuildWebGL
+          buildsPath: build
+          buildName: Rigfall            # output: build/WebGL/Rigfall
+          versioning: None
+
+      - name: Assemble the site
+        run: |
+          mkdir -p _site
+          cp -r build/WebGL/Rigfall/. _site/
+          touch _site/.nojekyll
+          ls -la _site
+
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

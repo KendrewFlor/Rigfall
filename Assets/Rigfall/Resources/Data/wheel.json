@@ -1,0 +1,27 @@
+{
+  "items": [
+    { "id": "w-barrels-c", "rarity": "common", "kind": "barrels", "name": "Strong Flow", "description": "+{n} barrels now.", "amount": 4, "perNight": 0.5, "target": "", "mods": [] },
+    { "id": "w-core-c", "rarity": "common", "kind": "core", "name": "Core Samples", "description": "+{n} core samples for permanent upgrades.", "amount": 6, "perNight": 0.2, "target": "", "mods": [] },
+    { "id": "w-repair-c", "rarity": "common", "kind": "rigHeal", "name": "Workover", "description": "The Main Rig regains 30% integrity and gains +10% max integrity this run.", "amount": 0.3, "perNight": 0, "target": "", "mods": [ { "stat": "hp.rig", "op": "mul", "value": 1.1 } ] },
+    { "id": "w-blessing-c", "rarity": "common", "kind": "blessing", "name": "Fresh Crew", "description": "This run: your hero deals 8% more damage.", "amount": 0, "perNight": 0, "target": "", "mods": [ { "stat": "hero.damage", "op": "mul", "value": 1.08 } ] },
+
+    { "id": "w-barrels-r", "rarity": "rare", "kind": "barrels", "name": "Flush Production", "description": "+{n} barrels now.", "amount": 8, "perNight": 0.8, "target": "", "mods": [] },
+    { "id": "w-core-r", "rarity": "rare", "kind": "core", "name": "Full Core", "description": "+{n} core samples.", "amount": 14, "perNight": 0.4, "target": "", "mods": [] },
+    { "id": "w-upgrade-r", "rarity": "rare", "kind": "freeUpgrade", "name": "Free Work Order", "description": "Your next build or upgrade is free.", "amount": 1, "perNight": 0, "target": "", "mods": [] },
+    { "id": "w-perk-r", "rarity": "rare", "kind": "unlockPerk", "name": "New Procedure", "description": "Unlock a perk you don't own yet (rare or lower) for future runs.", "amount": 1, "perNight": 0, "target": "rare", "mods": [] },
+    { "id": "w-blessing-r", "rarity": "rare", "kind": "blessing", "name": "Bonus Crew", "description": "This run: units deal 15% more damage.", "amount": 0, "perNight": 0, "target": "", "mods": [ { "stat": "unit.damage", "op": "mul", "value": 1.15 } ] },
+    { "id": "w-mutator-r", "rarity": "rare", "kind": "unlockMutator", "name": "Survey Report", "description": "Unlock a new mutator (rare or lower) for future runs.", "amount": 1, "perNight": 0, "target": "rare", "mods": [] },
+
+    { "id": "w-barrels-e", "rarity": "epic", "kind": "barrels", "name": "Gas Cap Expansion", "description": "+{n} barrels now.", "amount": 15, "perNight": 1.0, "target": "", "mods": [] },
+    { "id": "w-perk-e", "rarity": "epic", "kind": "unlockPerk", "name": "Best Practice", "description": "Unlock a perk you don't own yet (epic or lower).", "amount": 1, "perNight": 0, "target": "epic", "mods": [] },
+    { "id": "w-mutator-e", "rarity": "epic", "kind": "unlockMutator", "name": "Hazard Study", "description": "Unlock a new mutator (epic or lower).", "amount": 1, "perNight": 0, "target": "epic", "mods": [] },
+    { "id": "w-blessing-e", "rarity": "epic", "kind": "blessing", "name": "Night Shift Bonus", "description": "This run: derrick towers attack 20% faster.", "amount": 0, "perNight": 0, "target": "", "mods": [ { "stat": "tower.rate", "op": "mul", "value": 1.2 } ] },
+
+    { "id": "w-barrels-l", "rarity": "legendary", "kind": "barrels", "name": "Discovery Well", "description": "+{n} barrels now.", "amount": 25, "perNight": 1.5, "target": "", "mods": [] },
+    { "id": "w-weapon-l", "rarity": "legendary", "kind": "unlockWeapon", "name": "Prototype Tool", "description": "Unlock a weapon you don't own yet (legendary or lower).", "amount": 1, "perNight": 0, "target": "legendary", "mods": [] },
+    { "id": "w-blessing-l", "rarity": "legendary", "kind": "blessing", "name": "Field Expansion", "description": "This run: every pumpjack pays +1 barrel at dawn.", "amount": 0, "perNight": 0, "target": "", "mods": [ { "stat": "income.house", "op": "add", "value": 1 } ] },
+
+    { "id": "w-weapon-b", "rarity": "brilliant", "kind": "unlockWeapon", "name": "Blowout Brilliant", "description": "Unlock a Blowout Brilliant weapon (or another weapon if you own them all) and +{n} barrels.", "amount": 40, "perNight": 0, "target": "brilliant", "mods": [] },
+    { "id": "w-gusher-b", "rarity": "brilliant", "kind": "blessing", "name": "Gusher Night", "description": "This run: all income at dawn +50%, and unlock the Gusher perk.", "amount": 0, "perNight": 0, "target": "gusher", "mods": [ { "stat": "income.all", "op": "mul", "value": 1.5 } ] }
+  ]
+}

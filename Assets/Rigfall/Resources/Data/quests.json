@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": "q-hero-kills", "name": "Hands-On Supervisor", "description": "Your hero defeats {n} enemies tonight.",
+      "type": "heroKills", "key": "", "baseCount": 12, "perNight": 1.5, "minNight": 1, "rewardBarrels": 4, "rewardCore": 3 },
+    { "id": "q-tower-kills", "name": "Tower Watch", "description": "Derrick towers defeat {n} enemies tonight.",
+      "type": "towerKills", "key": "", "baseCount": 10, "perNight": 1.5, "minNight": 2, "rewardBarrels": 4, "rewardCore": 3 },
+    { "id": "q-unit-kills", "name": "Crew Performance", "description": "Your units defeat {n} enemies tonight.",
+      "type": "unitKills", "key": "", "baseCount": 10, "perNight": 1.5, "minNight": 3, "rewardBarrels": 5, "rewardCore": 3 },
+    { "id": "q-no-wall", "name": "Barrier Integrity", "description": "Don't lose a single blast wall tonight.",
+      "type": "noWallLost", "key": "", "baseCount": 1, "perNight": 0, "minNight": 2, "rewardBarrels": 5, "rewardCore": 4 },
+    { "id": "q-rig-untouched", "name": "Zero Incidents", "description": "The Main Rig takes no damage tonight.",
+      "type": "rigUntouched", "key": "", "baseCount": 1, "perNight": 0, "minNight": 1, "rewardBarrels": 6, "rewardCore": 5 },
+    { "id": "q-build", "name": "Construction Push", "description": "Build or upgrade {n} times today.",
+      "type": "buildActions", "key": "", "baseCount": 2, "perNight": 0.25, "minNight": 1, "rewardBarrels": 3, "rewardCore": 2 },
+    { "id": "q-kill-type", "name": "Targeted Intervention", "description": "Defeat {n} {enemy} tonight.",
+      "type": "killType", "key": "", "baseCount": 6, "perNight": 0.8, "minNight": 2, "rewardBarrels": 4, "rewardCore": 3 },
+    { "id": "q-boss-hero", "name": "Lead From the Front", "description": "Land the killing blow on tonight's boss with your hero.",
+      "type": "bossHero", "key": "", "baseCount": 1, "perNight": 0, "minNight": 7, "rewardBarrels": 12, "rewardCore": 15 },
+    { "id": "q-no-unit-lost", "name": "Everyone Goes Home", "description": "Don't lose any unit tonight.",
+      "type": "noUnitLost", "key": "", "baseCount": 1, "perNight": 0, "minNight": 4, "rewardBarrels": 6, "rewardCore": 5 },
+    { "id": "q-hold-barrels", "name": "Cash Reserve", "description": "Start tonight holding at least {n} barrels.",
+      "type": "holdBarrels", "key": "", "baseCount": 8, "perNight": 1, "minNight": 3, "rewardBarrels": 5, "rewardCore": 3 }
+  ]
+}

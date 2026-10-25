@@ -1,0 +1,2861 @@
+{
+ "items": [
+  {
+   "id": "permian-pad",
+   "name": "Permian Pad",
+   "setting": "onshore",
+   "biome": "desert",
+   "order": 0,
+   "description": "A dusty multi-well pad in West Texas shale country. Wide open lanes and plenty of room for pumpjacks. The place to learn the job.",
+   "unlockAfter": "",
+   "shape": "disc",
+   "radius": 34.0,
+   "bgmDay": "bgm_day_desert",
+   "bgmNight": "bgm_night",
+   "enemyOrder": [
+    "gas-kick",
+    "sand-crawler",
+    "flash-fire",
+    "corrosion-beetle",
+    "h2s-wraith",
+    "shale-slinger",
+    "hydrate-golem",
+    "bitumen-ooze",
+    "sour-bat",
+    "scale-brute",
+    "paraffin-crawler",
+    "riser-eel"
+   ],
+   "decorModels": [
+    "decor-rock",
+    "decor-cactus",
+    "decor-shrub",
+    "decor-old-tank",
+    "decor-tumbleweed"
+   ],
+   "ground": "#C9A26B",
+   "groundAlt": "#B88A55",
+   "accent": "#8B5A2B",
+   "water": "",
+   "fog": "#E8C38A",
+   "skyDay": "#F4C98E",
+   "skyNight": "#1C1B33",
+   "sun": "#FFE2B0",
+   "spawns": [
+    {
+     "id": "lane0",
+     "x": 0.0,
+     "z": 32.0,
+     "fromNight": 1
+    },
+    {
+     "id": "lane1",
+     "x": -26.21,
+     "z": -18.35,
+     "fromNight": 3
+    },
+    {
+     "id": "lane2",
+     "x": 26.21,
+     "z": -18.35,
+     "fromNight": 6
+    }
+   ],
+   "slots": [
+    {
+     "id": "s00",
+     "building": "blast-wall",
+     "x": 3.3,
+     "z": 17.68,
+     "rot": 90,
+     "length": 3.2
+    },
+    {
+     "id": "s01",
+     "building": "blast-wall",
+     "x": 0.0,
+     "z": 17.68,
+     "rot": 90,
+     "length": 3.2
+    },
+    {
+     "id": "s02",
+     "building": "blast-wall",
+     "x": -3.3,
+     "z": 17.68,
+     "rot": 90,
+     "length": 3.2
+    },
+    {
+     "id": "s03",
+     "building": "derrick-tower",
+     "x": 6.2,
+     "z": 12.64,
+     "rot": 90,
+     "length": 0.0
+    },
+    {
+     "id": "s04",
+     "building": "derrick-tower",
+     "x": -6.2,
+     "z": 12.64,
+     "rot": 90,
+     "length": 0.0
+    },
+    {
+     "id": "s05",
+     "building": "blast-wall",
+     "x": -16.37,
+     "z": -7.44,
+     "rot": 215,
+     "length": 3.2
+    },
+    {
+     "id": "s06",
+     "building": "blast-wall",
+     "x": -14.48,
+     "z": -10.14,
+     "rot": 215,
+     "length": 3.2
+    },
+    {
+     "id": "s07",
+     "building": "blast-wall",
+     "x": -12.59,
+     "z": -12.84,
+     "rot": 215,
+     "length": 3.2
+    },
+    {
+     "id": "s08",
+     "building": "derrick-tower",
+     "x": -13.91,
+     "z": -2.17,
+     "rot": 215,
+     "length": 0.0
+    },
+    {
+     "id": "s09",
+     "building": "derrick-tower",
+     "x": -6.8,
+     "z": -12.33,
+     "rot": 215,
+     "length": 0.0
+    },
+    {
+     "id": "s10",
+     "building": "blast-wall",
+     "x": 12.59,
+     "z": -12.84,
+     "rot": 325,
+     "length": 3.2
+    },
+    {
+     "id": "s11",
+     "building": "blast-wall",
+     "x": 14.48,
+     "z": -10.14,
+     "rot": 325,
+     "length": 3.2
+    },
+    {
+     "id": "s12",
+     "building": "blast-wall",
+     "x": 16.37,
+     "z": -7.44,
+     "rot": 325,
+     "length": 3.2
+    },
+    {
+     "id": "s13",
+     "building": "derrick-tower",
+     "x": 6.8,
+     "z": -12.33,
+     "rot": 325,
+     "length": 0.0
+    },
+    {
+     "id": "s14",
+     "building": "derrick-tower",
+     "x": 13.91,
+     "z": -2.17,
+     "rot": 325,
+     "length": 0.0
+    },
+    {
+     "id": "s15",
+     "building": "company-office",
+     "x": -9.76,
+     "z": 5.08,
+     "rot": 332.5,
+     "length": 0.0
+    },
+    {
+     "id": "s16",
+     "building": "perforation-range",
+     "x": -5.45,
+     "z": 7.78,
+     "rot": 332.5,
+     "length": 0.0
+    },
+    {
+     "id": "s17",
+     "building": "crew-camp",
+     "x": -9.5,
+     "z": 0.0,
+     "rot": 332.5,
+     "length": 0.0
+    },
+    {
+     "id": "s18",
+     "building": "tank-battery",
+     "x": -10.37,
+     "z": 10.84,
+     "rot": 332.5,
+     "length": 0.0
+    },
+    {
+     "id": "s19",
+     "building": "tank-battery",
+     "x": -14.83,
+     "z": 2.28,
+     "rot": 332.5,
+     "length": 0.0
+    },
+    {
+     "id": "s20",
+     "building": "pumpjack",
+     "x": 7.5,
+     "z": 0.08,
+     "rot": 162.8,
+     "length": 0.0
+    },
+    {
+     "id": "s21",
+     "building": "pumpjack",
+     "x": 6.52,
+     "z": 3.7,
+     "rot": 46.6,
+     "length": 0.0
+    },
+    {
+     "id": "s22",
+     "building": "pumpjack",
+     "x": 3.57,
+     "z": 6.6,
+     "rot": 345.1,
+     "length": 0.0
+    },
+    {
+     "id": "s23",
+     "building": "pumpjack",
+     "x": -4.48,
+     "z": -6.01,
+     "rot": 13.8,
+     "length": 0.0
+    },
+    {
+     "id": "s24",
+     "building": "pumpjack",
+     "x": -0.88,
+     "z": -7.45,
+     "rot": 250.4,
+     "length": 0.0
+    },
+    {
+     "id": "s25",
+     "building": "pumpjack",
+     "x": 2.92,
+     "z": -6.91,
+     "rot": 27.7,
+     "length": 0.0
+    },
+    {
+     "id": "s26",
+     "building": "pumpjack",
+     "x": 16.5,
+     "z": 0.2,
+     "rot": 222.6,
+     "length": 0.0
+    },
+    {
+     "id": "s27",
+     "building": "pumpjack",
+     "x": 15.96,
+     "z": 4.19,
+     "rot": 8.3,
+     "length": 0.0
+    },
+    {
+     "id": "s28",
+     "building": "pumpjack",
+     "x": 14.38,
+     "z": 8.09,
+     "rot": 99.7,
+     "length": 0.0
+    },
+    {
+     "id": "s29",
+     "building": "pumpjack",
+     "x": 11.44,
+     "z": 11.89,
+     "rot": 216.4,
+     "length": 0.0
+    }
+   ],
+   "decor": [
+    {
+     "model": "decor-cactus",
+     "x": 6.92,
+     "z": 24.45,
+     "rot": 186.4,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-shrub",
+     "x": 7.51,
+     "z": -21.72,
+     "rot": 309.4,
+     "scale": 1.3
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": -4.39,
+     "z": -45.49,
+     "rot": 94.2,
+     "scale": 1.08
+    },
+    {
+     "model": "decor-cactus",
+     "x": -25.22,
+     "z": 3.21,
+     "rot": 304.0,
+     "scale": 0.98
+    },
+    {
+     "model": "decor-shrub",
+     "x": -34.98,
+     "z": -1.11,
+     "rot": 276.7,
+     "scale": 1.08
+    },
+    {
+     "model": "decor-shrub",
+     "x": 23.68,
+     "z": -7.76,
+     "rot": 126.7,
+     "scale": 0.83
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 2.23,
+     "z": -28.23,
+     "rot": 179.3,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-cactus",
+     "x": -16.48,
+     "z": 27.76,
+     "rot": 152.4,
+     "scale": 0.92
+    },
+    {
+     "model": "decor-shrub",
+     "x": -25.45,
+     "z": 24.07,
+     "rot": 49.5,
+     "scale": 1.13
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 45.74,
+     "z": -2.83,
+     "rot": 344.9,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": -19.9,
+     "z": 8.83,
+     "rot": 142.2,
+     "scale": 1.13
+    },
+    {
+     "model": "decor-cactus",
+     "x": 25.17,
+     "z": 27.98,
+     "rot": 268.2,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-shrub",
+     "x": 7.83,
+     "z": -39.18,
+     "rot": 332.5,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-cactus",
+     "x": 24.83,
+     "z": 16.8,
+     "rot": 280.7,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 32.74,
+     "z": -2.86,
+     "rot": 40.9,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-shrub",
+     "x": -37.08,
+     "z": 27.8,
+     "rot": 302.1,
+     "scale": 1.06
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 8.51,
+     "z": -35.12,
+     "rot": 293.5,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-cactus",
+     "x": 20.22,
+     "z": 15.74,
+     "rot": 292.2,
+     "scale": 1.31
+    },
+    {
+     "model": "decor-shrub",
+     "x": 31.03,
+     "z": 19.29,
+     "rot": 42.0,
+     "scale": 0.8
+    },
+    {
+     "model": "decor-rock",
+     "x": 25.69,
+     "z": 2.41,
+     "rot": 1.6,
+     "scale": 1.12
+    },
+    {
+     "model": "decor-rock",
+     "x": -16.88,
+     "z": -35.55,
+     "rot": 158.9,
+     "scale": 1.08
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 40.49,
+     "z": -6.76,
+     "rot": 97.9,
+     "scale": 1.09
+    },
+    {
+     "model": "decor-old-tank",
+     "x": 37.77,
+     "z": 14.75,
+     "rot": 131.5,
+     "scale": 0.82
+    },
+    {
+     "model": "decor-rock",
+     "x": -21.64,
+     "z": -3.38,
+     "rot": 72.5,
+     "scale": 0.82
+    },
+    {
+     "model": "decor-shrub",
+     "x": -39.61,
+     "z": 2.12,
+     "rot": 359.0,
+     "scale": 0.87
+    },
+    {
+     "model": "decor-old-tank",
+     "x": -27.91,
+     "z": 32.52,
+     "rot": 181.8,
+     "scale": 1.08
+    },
+    {
+     "model": "decor-cactus",
+     "x": -12.93,
+     "z": -30.59,
+     "rot": 84.1,
+     "scale": 1.0
+    },
+    {
+     "model": "decor-cactus",
+     "x": -6.85,
+     "z": -27.78,
+     "rot": 331.3,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-old-tank",
+     "x": -23.73,
+     "z": 0.78,
+     "rot": 178.5,
+     "scale": 0.81
+    },
+    {
+     "model": "decor-rock",
+     "x": 38.58,
+     "z": 7.15,
+     "rot": 340.6,
+     "scale": 0.85
+    },
+    {
+     "model": "decor-rock",
+     "x": -22.59,
+     "z": 23.1,
+     "rot": 278.6,
+     "scale": 0.85
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": -26.58,
+     "z": -2.63,
+     "rot": 226.1,
+     "scale": 1.01
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 18.41,
+     "z": 13.62,
+     "rot": 133.6,
+     "scale": 1.07
+    },
+    {
+     "model": "decor-cactus",
+     "x": -24.89,
+     "z": -7.25,
+     "rot": 185.1,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-old-tank",
+     "x": -22.81,
+     "z": 17.2,
+     "rot": 169.4,
+     "scale": 1.01
+    },
+    {
+     "model": "decor-cactus",
+     "x": -20.79,
+     "z": 25.82,
+     "rot": 282.6,
+     "scale": 1.33
+    },
+    {
+     "model": "decor-cactus",
+     "x": 27.96,
+     "z": -9.12,
+     "rot": 338.5,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-tumbleweed",
+     "x": 43.78,
+     "z": 17.09,
+     "rot": 286.6,
+     "scale": 1.34
+    }
+   ],
+   "walkways": [],
+   "startBarrels": 6
+  },
+  {
+   "id": "delta-swamp",
+   "name": "Delta Swamp",
+   "setting": "onshore",
+   "biome": "swamp",
+   "order": 1,
+   "description": "Wells on board-roads through mangrove swamp. Waxy crawlers come out of the cold flowlines and bats nest in the flare.",
+   "unlockAfter": "permian-pad",
+   "shape": "disc",
+   "radius": 33.0,
+   "bgmDay": "bgm_day_swamp",
+   "bgmNight": "bgm_night",
+   "enemyOrder": [
+    "gas-kick",
+    "paraffin-crawler",
+    "sour-bat",
+    "bitumen-ooze",
+    "h2s-wraith",
+    "sand-crawler",
+    "flash-fire",
+    "corrosion-beetle",
+    "shale-slinger",
+    "hydrate-golem",
+    "scale-brute",
+    "riser-eel"
+   ],
+   "decorModels": [
+    "decor-mangrove",
+    "decor-reeds",
+    "decor-pool",
+    "decor-shrub",
+    "decor-rock"
+   ],
+   "ground": "#5E7A3A",
+   "groundAlt": "#4D6B33",
+   "accent": "#3A2A1C",
+   "water": "#2E4A3A",
+   "fog": "#7D9A6A",
+   "skyDay": "#BFD8A8",
+   "skyNight": "#101C1A",
+   "sun": "#F2F2C8",
+   "spawns": [
+    {
+     "id": "lane0",
+     "x": 15.5,
+     "z": 26.85,
+     "fromNight": 1
+    },
+    {
+     "id": "lane1",
+     "x": -31.0,
+     "z": 0.0,
+     "fromNight": 3
+    },
+    {
+     "id": "lane2",
+     "x": 15.5,
+     "z": -26.85,
+     "fromNight": 5
+    },
+    {
+     "id": "lane3",
+     "x": 31.0,
+     "z": 0.0,
+     "fromNight": 9
+    }
+   ],
+   "slots": [
+    {
+     "id": "s00",
+     "building": "blast-wall",
+     "x": 11.44,
+     "z": 13.21,
+     "rot": 60,
+     "length": 3.2
+    },
+    {
+     "id": "s01",
+     "building": "blast-wall",
+     "x": 8.58,
+     "z": 14.86,
+     "rot": 60,
+     "length": 3.2
+    },
+    {
+     "id": "s02",
+     "building": "blast-wall",
+     "x": 5.72,
+     "z": 16.51,
+     "rot": 60,
+     "length": 3.2
+    },
+    {
+     "id": "s03",
+     "building": "derrick-tower",
+     "x": 11.4,
+     "z": 7.34,
+     "rot": 60,
+     "length": 0.0
+    },
+    {
+     "id": "s04",
+     "building": "derrick-tower",
+     "x": 0.66,
+     "z": 13.54,
+     "rot": 60,
+     "length": 0.0
+    },
+    {
+     "id": "s05",
+     "building": "blast-wall",
+     "x": -17.16,
+     "z": 3.3,
+     "rot": 180,
+     "length": 3.2
+    },
+    {
+     "id": "s06",
+     "building": "blast-wall",
+     "x": -17.16,
+     "z": 0.0,
+     "rot": 180,
+     "length": 3.2
+    },
+    {
+     "id": "s07",
+     "building": "blast-wall",
+     "x": -17.16,
+     "z": -3.3,
+     "rot": 180,
+     "length": 3.2
+    },
+    {
+     "id": "s08",
+     "building": "derrick-tower",
+     "x": -12.06,
+     "z": 6.2,
+     "rot": 180,
+     "length": 0.0
+    },
+    {
+     "id": "s09",
+     "building": "derrick-tower",
+     "x": -12.06,
+     "z": -6.2,
+     "rot": 180,
+     "length": 0.0
+    },
+    {
+     "id": "s10",
+     "building": "blast-wall",
+     "x": 5.72,
+     "z": -16.51,
+     "rot": 300,
+     "length": 3.2
+    },
+    {
+     "id": "s11",
+     "building": "blast-wall",
+     "x": 8.58,
+     "z": -14.86,
+     "rot": 300,
+     "length": 3.2
+    },
+    {
+     "id": "s12",
+     "building": "blast-wall",
+     "x": 11.44,
+     "z": -13.21,
+     "rot": 300,
+     "length": 3.2
+    },
+    {
+     "id": "s13",
+     "building": "derrick-tower",
+     "x": 0.66,
+     "z": -13.54,
+     "rot": 300,
+     "length": 0.0
+    },
+    {
+     "id": "s14",
+     "building": "derrick-tower",
+     "x": 11.4,
+     "z": -7.34,
+     "rot": 300,
+     "length": 0.0
+    },
+    {
+     "id": "s15",
+     "building": "blast-wall",
+     "x": 17.16,
+     "z": -3.3,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s16",
+     "building": "blast-wall",
+     "x": 17.16,
+     "z": 0.0,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s17",
+     "building": "blast-wall",
+     "x": 17.16,
+     "z": 3.3,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s18",
+     "building": "derrick-tower",
+     "x": 12.06,
+     "z": -6.2,
+     "rot": 0,
+     "length": 0.0
+    },
+    {
+     "id": "s19",
+     "building": "derrick-tower",
+     "x": 12.06,
+     "z": 6.2,
+     "rot": 0,
+     "length": 0.0
+    },
+    {
+     "id": "s20",
+     "building": "company-office",
+     "x": -5.5,
+     "z": 9.53,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s21",
+     "building": "perforation-range",
+     "x": -0.6,
+     "z": 9.48,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s22",
+     "building": "crew-camp",
+     "x": -7.91,
+     "z": 5.26,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s23",
+     "building": "crew-camp",
+     "x": -5.5,
+     "z": -9.53,
+     "rot": 60.0,
+     "length": 0.0
+    },
+    {
+     "id": "s24",
+     "building": "tank-battery",
+     "x": -3.12,
+     "z": 14.67,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s25",
+     "building": "tank-battery",
+     "x": -11.15,
+     "z": 10.04,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s26",
+     "building": "tank-battery",
+     "x": -8.25,
+     "z": 14.29,
+     "rot": 300.0,
+     "length": 0.0
+    },
+    {
+     "id": "s27",
+     "building": "pumpjack",
+     "x": 7.18,
+     "z": 2.16,
+     "rot": 219.0,
+     "length": 0.0
+    },
+    {
+     "id": "s28",
+     "building": "pumpjack",
+     "x": -6.85,
+     "z": -3.05,
+     "rot": 323.9,
+     "length": 0.0
+    },
+    {
+     "id": "s29",
+     "building": "pumpjack",
+     "x": -2.12,
+     "z": -7.19,
+     "rot": 215.6,
+     "length": 0.0
+    },
+    {
+     "id": "s30",
+     "building": "pumpjack",
+     "x": 5.88,
+     "z": -4.66,
+     "rot": 302.5,
+     "length": 0.0
+    },
+    {
+     "id": "s31",
+     "building": "pumpjack",
+     "x": 7.47,
+     "z": 5.87,
+     "rot": 10.5,
+     "length": 0.0
+    },
+    {
+     "id": "s32",
+     "building": "pumpjack",
+     "x": 1.2,
+     "z": -9.42,
+     "rot": 172.1,
+     "length": 0.0
+    },
+    {
+     "id": "s33",
+     "building": "pumpjack",
+     "x": -12.92,
+     "z": -10.26,
+     "rot": 292.3,
+     "length": 0.0
+    },
+    {
+     "id": "s34",
+     "building": "pumpjack",
+     "x": -10.02,
+     "z": -13.11,
+     "rot": 276.7,
+     "length": 0.0
+    },
+    {
+     "id": "s35",
+     "building": "pumpjack",
+     "x": -6.38,
+     "z": -15.22,
+     "rot": 171.8,
+     "length": 0.0
+    },
+    {
+     "id": "s36",
+     "building": "pumpjack",
+     "x": -1.74,
+     "z": -16.41,
+     "rot": 84.2,
+     "length": 0.0
+    }
+   ],
+   "decor": [
+    {
+     "model": "decor-reeds",
+     "x": -16.45,
+     "z": 14.89,
+     "rot": 11.8,
+     "scale": 1.06
+    },
+    {
+     "model": "decor-reeds",
+     "x": -15.42,
+     "z": -30.41,
+     "rot": 175.1,
+     "scale": 1.12
+    },
+    {
+     "model": "decor-pool",
+     "x": 28.04,
+     "z": 25.94,
+     "rot": 211.4,
+     "scale": 1.18
+    },
+    {
+     "model": "decor-rock",
+     "x": 4.78,
+     "z": 36.83,
+     "rot": 96.2,
+     "scale": 1.07
+    },
+    {
+     "model": "decor-mangrove",
+     "x": -24.75,
+     "z": -39.04,
+     "rot": 125.1,
+     "scale": 1.34
+    },
+    {
+     "model": "decor-mangrove",
+     "x": -15.89,
+     "z": -24.37,
+     "rot": 330.5,
+     "scale": 1.1
+    },
+    {
+     "model": "decor-reeds",
+     "x": 23.6,
+     "z": -13.74,
+     "rot": 92.4,
+     "scale": 1.03
+    },
+    {
+     "model": "decor-mangrove",
+     "x": -1.41,
+     "z": 45.98,
+     "rot": 215.0,
+     "scale": 0.9
+    },
+    {
+     "model": "decor-pool",
+     "x": 30.32,
+     "z": 21.82,
+     "rot": 15.4,
+     "scale": 1.01
+    },
+    {
+     "model": "decor-shrub",
+     "x": 19.55,
+     "z": -19.6,
+     "rot": 103.7,
+     "scale": 0.9
+    },
+    {
+     "model": "decor-rock",
+     "x": 26.6,
+     "z": -7.29,
+     "rot": 128.0,
+     "scale": 0.83
+    },
+    {
+     "model": "decor-pool",
+     "x": 25.57,
+     "z": 11.83,
+     "rot": 26.7,
+     "scale": 0.82
+    },
+    {
+     "model": "decor-pool",
+     "x": -24.02,
+     "z": 39.82,
+     "rot": 232.3,
+     "scale": 0.91
+    },
+    {
+     "model": "decor-reeds",
+     "x": -17.83,
+     "z": 36.04,
+     "rot": 144.1,
+     "scale": 1.29
+    },
+    {
+     "model": "decor-pool",
+     "x": -9.82,
+     "z": -44.33,
+     "rot": 258.2,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-reeds",
+     "x": -27.43,
+     "z": 26.11,
+     "rot": 179.5,
+     "scale": 0.95
+    },
+    {
+     "model": "decor-reeds",
+     "x": 36.87,
+     "z": 23.83,
+     "rot": 230.9,
+     "scale": 0.87
+    },
+    {
+     "model": "decor-rock",
+     "x": 6.99,
+     "z": 25.16,
+     "rot": 32.3,
+     "scale": 1.23
+    },
+    {
+     "model": "decor-pool",
+     "x": 35.71,
+     "z": 13.62,
+     "rot": 295.9,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-reeds",
+     "x": -38.16,
+     "z": -22.52,
+     "rot": 198.4,
+     "scale": 1.27
+    },
+    {
+     "model": "decor-reeds",
+     "x": -14.92,
+     "z": -34.53,
+     "rot": 322.1,
+     "scale": 1.06
+    },
+    {
+     "model": "decor-rock",
+     "x": -33.28,
+     "z": -28.57,
+     "rot": 231.7,
+     "scale": 1.29
+    },
+    {
+     "model": "decor-rock",
+     "x": 36.69,
+     "z": -25.22,
+     "rot": 344.7,
+     "scale": 1.35
+    },
+    {
+     "model": "decor-reeds",
+     "x": 34.46,
+     "z": -11.13,
+     "rot": 172.2,
+     "scale": 1.17
+    },
+    {
+     "model": "decor-rock",
+     "x": -2.32,
+     "z": -43.43,
+     "rot": 56.9,
+     "scale": 1.03
+    },
+    {
+     "model": "decor-rock",
+     "x": 1.36,
+     "z": -29.19,
+     "rot": 105.8,
+     "scale": 1.26
+    },
+    {
+     "model": "decor-pool",
+     "x": -30.17,
+     "z": 22.77,
+     "rot": 194.6,
+     "scale": 0.92
+    },
+    {
+     "model": "decor-pool",
+     "x": -27.67,
+     "z": -28.45,
+     "rot": 258.0,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-mangrove",
+     "x": -5.34,
+     "z": -41.69,
+     "rot": 354.3,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-mangrove",
+     "x": 20.02,
+     "z": -12.75,
+     "rot": 170.6,
+     "scale": 0.86
+    },
+    {
+     "model": "decor-shrub",
+     "x": 4.79,
+     "z": 26.21,
+     "rot": 251.2,
+     "scale": 1.19
+    },
+    {
+     "model": "decor-reeds",
+     "x": -12.85,
+     "z": -27.76,
+     "rot": 320.6,
+     "scale": 0.97
+    },
+    {
+     "model": "decor-mangrove",
+     "x": -5.12,
+     "z": -23.46,
+     "rot": 152.4,
+     "scale": 0.8
+    },
+    {
+     "model": "decor-pool",
+     "x": 4.22,
+     "z": 20.15,
+     "rot": 70.0,
+     "scale": 0.85
+    },
+    {
+     "model": "decor-rock",
+     "x": -4.54,
+     "z": -20.86,
+     "rot": 50.1,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-rock",
+     "x": -29.95,
+     "z": 20.13,
+     "rot": 291.6,
+     "scale": 1.13
+    },
+    {
+     "model": "decor-rock",
+     "x": -20.96,
+     "z": -38.54,
+     "rot": 278.7,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-reeds",
+     "x": 26.82,
+     "z": -24.1,
+     "rot": 1.8,
+     "scale": 1.11
+    }
+   ],
+   "walkways": [],
+   "startBarrels": 6
+  },
+  {
+   "id": "arctic-slope",
+   "name": "Arctic Slope",
+   "setting": "onshore",
+   "biome": "arctic",
+   "order": 2,
+   "description": "An ice pad on the North Slope. Hydrates form in every line, and the golems they make hit like trucks.",
+   "unlockAfter": "delta-swamp",
+   "shape": "disc",
+   "radius": 35.0,
+   "bgmDay": "bgm_day_arctic",
+   "bgmNight": "bgm_night",
+   "enemyOrder": [
+    "gas-kick",
+    "sand-crawler",
+    "paraffin-crawler",
+    "shale-slinger",
+    "hydrate-golem",
+    "h2s-wraith",
+    "flash-fire",
+    "corrosion-beetle",
+    "bitumen-ooze",
+    "sour-bat",
+    "scale-brute",
+    "riser-eel"
+   ],
+   "decorModels": [
+    "decor-pine",
+    "decor-ice",
+    "decor-snowdrift",
+    "decor-rock",
+    "decor-pipeline"
+   ],
+   "ground": "#E6EDF2",
+   "groundAlt": "#CFDAE2",
+   "accent": "#5D7A8C",
+   "water": "",
+   "fog": "#DDE8F0",
+   "skyDay": "#CFE3F2",
+   "skyNight": "#0E1630",
+   "sun": "#F4FAFF",
+   "spawns": [
+    {
+     "id": "lane0",
+     "x": 28.58,
+     "z": 16.5,
+     "fromNight": 1
+    },
+    {
+     "id": "lane1",
+     "x": -28.58,
+     "z": 16.5,
+     "fromNight": 2
+    },
+    {
+     "id": "lane2",
+     "x": -0.0,
+     "z": -33.0,
+     "fromNight": 4
+    }
+   ],
+   "slots": [
+    {
+     "id": "s00",
+     "building": "blast-wall",
+     "x": 17.41,
+     "z": 6.24,
+     "rot": 30,
+     "length": 3.2
+    },
+    {
+     "id": "s01",
+     "building": "blast-wall",
+     "x": 15.76,
+     "z": 9.1,
+     "rot": 30,
+     "length": 3.2
+    },
+    {
+     "id": "s02",
+     "building": "blast-wall",
+     "x": 14.11,
+     "z": 11.96,
+     "rot": 30,
+     "length": 3.2
+    },
+    {
+     "id": "s03",
+     "building": "derrick-tower",
+     "x": 14.55,
+     "z": 1.24,
+     "rot": 30,
+     "length": 0.0
+    },
+    {
+     "id": "s04",
+     "building": "derrick-tower",
+     "x": 8.35,
+     "z": 11.98,
+     "rot": 30,
+     "length": 0.0
+    },
+    {
+     "id": "s05",
+     "building": "blast-wall",
+     "x": -14.11,
+     "z": 11.96,
+     "rot": 150,
+     "length": 3.2
+    },
+    {
+     "id": "s06",
+     "building": "blast-wall",
+     "x": -15.76,
+     "z": 9.1,
+     "rot": 150,
+     "length": 3.2
+    },
+    {
+     "id": "s07",
+     "building": "blast-wall",
+     "x": -17.41,
+     "z": 6.24,
+     "rot": 150,
+     "length": 3.2
+    },
+    {
+     "id": "s08",
+     "building": "derrick-tower",
+     "x": -8.35,
+     "z": 11.98,
+     "rot": 150,
+     "length": 0.0
+    },
+    {
+     "id": "s09",
+     "building": "derrick-tower",
+     "x": -14.55,
+     "z": 1.24,
+     "rot": 150,
+     "length": 0.0
+    },
+    {
+     "id": "s10",
+     "building": "blast-wall",
+     "x": -3.3,
+     "z": -18.2,
+     "rot": 270,
+     "length": 3.2
+    },
+    {
+     "id": "s11",
+     "building": "blast-wall",
+     "x": 0.0,
+     "z": -18.2,
+     "rot": 270,
+     "length": 3.2
+    },
+    {
+     "id": "s12",
+     "building": "blast-wall",
+     "x": 3.3,
+     "z": -18.2,
+     "rot": 270,
+     "length": 3.2
+    },
+    {
+     "id": "s13",
+     "building": "derrick-tower",
+     "x": -6.2,
+     "z": -13.22,
+     "rot": 270,
+     "length": 0.0
+    },
+    {
+     "id": "s14",
+     "building": "derrick-tower",
+     "x": 6.2,
+     "z": -13.22,
+     "rot": 270,
+     "length": 0.0
+    },
+    {
+     "id": "s15",
+     "building": "company-office",
+     "x": 0.0,
+     "z": 11.0,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s16",
+     "building": "perforation-range",
+     "x": 4.89,
+     "z": 9.85,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s17",
+     "building": "crew-camp",
+     "x": -4.89,
+     "z": 9.85,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s18",
+     "building": "tank-battery",
+     "x": 5.1,
+     "z": 15.69,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s19",
+     "building": "tank-battery",
+     "x": -5.1,
+     "z": 15.69,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s20",
+     "building": "pumpjack",
+     "x": 7.5,
+     "z": 0.03,
+     "rot": 33.3,
+     "length": 0.0
+    },
+    {
+     "id": "s21",
+     "building": "pumpjack",
+     "x": -5.12,
+     "z": 5.48,
+     "rot": 101.2,
+     "length": 0.0
+    },
+    {
+     "id": "s22",
+     "building": "pumpjack",
+     "x": -7.43,
+     "z": 0.99,
+     "rot": 44.6,
+     "length": 0.0
+    },
+    {
+     "id": "s23",
+     "building": "pumpjack",
+     "x": -6.9,
+     "z": -2.95,
+     "rot": 108.6,
+     "length": 0.0
+    },
+    {
+     "id": "s24",
+     "building": "pumpjack",
+     "x": -4.72,
+     "z": -5.83,
+     "rot": 281.8,
+     "length": 0.0
+    },
+    {
+     "id": "s25",
+     "building": "pumpjack",
+     "x": 2.11,
+     "z": -7.2,
+     "rot": 293.6,
+     "length": 0.0
+    },
+    {
+     "id": "s26",
+     "building": "pumpjack",
+     "x": 6.01,
+     "z": -7.36,
+     "rot": 4.4,
+     "length": 0.0
+    },
+    {
+     "id": "s27",
+     "building": "pumpjack",
+     "x": 8.33,
+     "z": -4.56,
+     "rot": 170.1,
+     "length": 0.0
+    },
+    {
+     "id": "s28",
+     "building": "pumpjack",
+     "x": -0.35,
+     "z": 16.5,
+     "rot": 129.3,
+     "length": 0.0
+    },
+    {
+     "id": "s29",
+     "building": "pumpjack",
+     "x": -16.38,
+     "z": -2.03,
+     "rot": 177.5,
+     "length": 0.0
+    },
+    {
+     "id": "s30",
+     "building": "pumpjack",
+     "x": -15.13,
+     "z": -6.58,
+     "rot": 325.0,
+     "length": 0.0
+    },
+    {
+     "id": "s31",
+     "building": "pumpjack",
+     "x": -12.86,
+     "z": -10.33,
+     "rot": 107.5,
+     "length": 0.0
+    }
+   ],
+   "decor": [
+    {
+     "model": "decor-pine",
+     "x": 23.59,
+     "z": 6.38,
+     "rot": 98.7,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-pine",
+     "x": -12.68,
+     "z": 39.62,
+     "rot": 196.5,
+     "scale": 1.01
+    },
+    {
+     "model": "decor-snowdrift",
+     "x": 41.0,
+     "z": 1.39,
+     "rot": 298.2,
+     "scale": 1.27
+    },
+    {
+     "model": "decor-pine",
+     "x": -11.11,
+     "z": -37.04,
+     "rot": 203.7,
+     "scale": 0.91
+    },
+    {
+     "model": "decor-rock",
+     "x": -33.7,
+     "z": 9.49,
+     "rot": 41.2,
+     "scale": 0.91
+    },
+    {
+     "model": "decor-pine",
+     "x": 8.66,
+     "z": 25.53,
+     "rot": 130.3,
+     "scale": 1.25
+    },
+    {
+     "model": "decor-pipeline",
+     "x": -29.49,
+     "z": 36.61,
+     "rot": 93.3,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-rock",
+     "x": -3.54,
+     "z": 32.45,
+     "rot": 89.3,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-rock",
+     "x": -22.71,
+     "z": -4.79,
+     "rot": 177.3,
+     "scale": 1.18
+    },
+    {
+     "model": "decor-pine",
+     "x": 22.46,
+     "z": -27.66,
+     "rot": 337.2,
+     "scale": 1.28
+    },
+    {
+     "model": "decor-pine",
+     "x": 13.97,
+     "z": 27.0,
+     "rot": 342.8,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-rock",
+     "x": -26.29,
+     "z": 41.14,
+     "rot": 144.0,
+     "scale": 1.23
+    },
+    {
+     "model": "decor-snowdrift",
+     "x": -13.26,
+     "z": 25.62,
+     "rot": 166.5,
+     "scale": 1.12
+    },
+    {
+     "model": "decor-rock",
+     "x": 22.73,
+     "z": -5.41,
+     "rot": 349.0,
+     "scale": 0.95
+    },
+    {
+     "model": "decor-pine",
+     "x": 32.6,
+     "z": -11.66,
+     "rot": 173.8,
+     "scale": 1.27
+    },
+    {
+     "model": "decor-pine",
+     "x": 19.75,
+     "z": -16.5,
+     "rot": 343.7,
+     "scale": 0.99
+    },
+    {
+     "model": "decor-ice",
+     "x": -19.2,
+     "z": 31.24,
+     "rot": 290.3,
+     "scale": 0.86
+    },
+    {
+     "model": "decor-pipeline",
+     "x": -47.38,
+     "z": 9.15,
+     "rot": 153.2,
+     "scale": 1.27
+    },
+    {
+     "model": "decor-ice",
+     "x": 38.65,
+     "z": -5.9,
+     "rot": 26.6,
+     "scale": 1.17
+    },
+    {
+     "model": "decor-pipeline",
+     "x": -7.55,
+     "z": -23.64,
+     "rot": 288.7,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-pipeline",
+     "x": 27.05,
+     "z": -19.65,
+     "rot": 336.2,
+     "scale": 0.85
+    },
+    {
+     "model": "decor-snowdrift",
+     "x": 8.4,
+     "z": -30.26,
+     "rot": 114.5,
+     "scale": 1.16
+    },
+    {
+     "model": "decor-pipeline",
+     "x": 20.89,
+     "z": 35.54,
+     "rot": 346.5,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-pine",
+     "x": -27.23,
+     "z": -24.26,
+     "rot": 176.6,
+     "scale": 1.04
+    },
+    {
+     "model": "decor-snowdrift",
+     "x": -42.63,
+     "z": -22.47,
+     "rot": 71.4,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-ice",
+     "x": -6.38,
+     "z": 24.75,
+     "rot": 5.5,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-pipeline",
+     "x": 19.42,
+     "z": -10.87,
+     "rot": 19.0,
+     "scale": 1.22
+    },
+    {
+     "model": "decor-pine",
+     "x": 20.64,
+     "z": -29.55,
+     "rot": 4.1,
+     "scale": 1.06
+    },
+    {
+     "model": "decor-snowdrift",
+     "x": 22.31,
+     "z": 37.18,
+     "rot": 71.0,
+     "scale": 1.14
+    },
+    {
+     "model": "decor-ice",
+     "x": 21.89,
+     "z": -8.23,
+     "rot": 351.0,
+     "scale": 0.98
+    },
+    {
+     "model": "decor-pine",
+     "x": -14.65,
+     "z": -17.1,
+     "rot": 6.5,
+     "scale": 1.07
+    },
+    {
+     "model": "decor-pipeline",
+     "x": -17.99,
+     "z": -34.67,
+     "rot": 254.2,
+     "scale": 1.28
+    },
+    {
+     "model": "decor-rock",
+     "x": 18.54,
+     "z": 41.33,
+     "rot": 59.7,
+     "scale": 0.92
+    },
+    {
+     "model": "decor-ice",
+     "x": -22.26,
+     "z": 42.2,
+     "rot": 183.1,
+     "scale": 1.29
+    },
+    {
+     "model": "decor-pine",
+     "x": -1.34,
+     "z": 24.02,
+     "rot": 171.7,
+     "scale": 0.83
+    },
+    {
+     "model": "decor-pipeline",
+     "x": 15.12,
+     "z": -31.3,
+     "rot": 77.5,
+     "scale": 1.17
+    },
+    {
+     "model": "decor-rock",
+     "x": 12.08,
+     "z": 23.23,
+     "rot": 52.5,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-pipeline",
+     "x": -7.45,
+     "z": -26.28,
+     "rot": 4.7,
+     "scale": 0.96
+    }
+   ],
+   "walkways": [],
+   "startBarrels": 6
+  },
+  {
+   "id": "north-sea-jacket",
+   "name": "North Sea Jacket",
+   "setting": "offshore",
+   "biome": "sea",
+   "order": 3,
+   "description": "A fixed steel jacket platform in a grey sea. Enemies climb up the risers onto three walkways. No room to waste.",
+   "unlockAfter": "arctic-slope",
+   "shape": "deck",
+   "radius": 24.0,
+   "bgmDay": "bgm_day_offshore",
+   "bgmNight": "bgm_night",
+   "enemyOrder": [
+    "gas-kick",
+    "riser-eel",
+    "sour-bat",
+    "corrosion-beetle",
+    "h2s-wraith",
+    "shale-slinger",
+    "flash-fire",
+    "sand-crawler",
+    "paraffin-crawler",
+    "bitumen-ooze",
+    "hydrate-golem",
+    "scale-brute"
+   ],
+   "decorModels": [
+    "decor-container",
+    "decor-crane",
+    "decor-lifeboat",
+    "decor-pipe-rack",
+    "decor-barrels"
+   ],
+   "ground": "#6E7A80",
+   "groundAlt": "#5D696F",
+   "accent": "#F2C200",
+   "water": "#1F4E66",
+   "fog": "#8FA3AE",
+   "skyDay": "#AFC3CF",
+   "skyNight": "#0B1420",
+   "sun": "#E8F0F4",
+   "spawns": [
+    {
+     "id": "lane0",
+     "x": 33.0,
+     "z": 0.0,
+     "fromNight": 1
+    },
+    {
+     "id": "lane1",
+     "x": -16.5,
+     "z": 28.58,
+     "fromNight": 2
+    },
+    {
+     "id": "lane2",
+     "x": -16.5,
+     "z": -28.58,
+     "fromNight": 4
+    }
+   ],
+   "slots": [
+    {
+     "id": "s00",
+     "building": "blast-wall",
+     "x": 13.44,
+     "z": -3.3,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s01",
+     "building": "blast-wall",
+     "x": 13.44,
+     "z": 0.0,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s02",
+     "building": "blast-wall",
+     "x": 13.44,
+     "z": 3.3,
+     "rot": 0,
+     "length": 3.2
+    },
+    {
+     "id": "s03",
+     "building": "derrick-tower",
+     "x": 7.64,
+     "z": -6.2,
+     "rot": 0,
+     "length": 0.0
+    },
+    {
+     "id": "s04",
+     "building": "derrick-tower",
+     "x": 7.64,
+     "z": 6.2,
+     "rot": 0,
+     "length": 0.0
+    },
+    {
+     "id": "s05",
+     "building": "blast-wall",
+     "x": -3.86,
+     "z": 13.29,
+     "rot": 120,
+     "length": 3.2
+    },
+    {
+     "id": "s06",
+     "building": "blast-wall",
+     "x": -6.72,
+     "z": 11.64,
+     "rot": 120,
+     "length": 3.2
+    },
+    {
+     "id": "s07",
+     "building": "blast-wall",
+     "x": -9.58,
+     "z": 9.99,
+     "rot": 120,
+     "length": 3.2
+    },
+    {
+     "id": "s08",
+     "building": "derrick-tower",
+     "x": 1.55,
+     "z": 9.72,
+     "rot": 120,
+     "length": 0.0
+    },
+    {
+     "id": "s09",
+     "building": "derrick-tower",
+     "x": -9.19,
+     "z": 3.52,
+     "rot": 120,
+     "length": 0.0
+    },
+    {
+     "id": "s10",
+     "building": "blast-wall",
+     "x": -9.58,
+     "z": -9.99,
+     "rot": 240,
+     "length": 3.2
+    },
+    {
+     "id": "s11",
+     "building": "blast-wall",
+     "x": -6.72,
+     "z": -11.64,
+     "rot": 240,
+     "length": 3.2
+    },
+    {
+     "id": "s12",
+     "building": "blast-wall",
+     "x": -3.86,
+     "z": -13.29,
+     "rot": 240,
+     "length": 3.2
+    },
+    {
+     "id": "s13",
+     "building": "derrick-tower",
+     "x": -9.19,
+     "z": -3.52,
+     "rot": 240,
+     "length": 0.0
+    },
+    {
+     "id": "s14",
+     "building": "derrick-tower",
+     "x": 1.55,
+     "z": -9.72,
+     "rot": 240,
+     "length": 0.0
+    },
+    {
+     "id": "s15",
+     "building": "company-office",
+     "x": 6.25,
+     "z": 10.83,
+     "rot": 240.0,
+     "length": 0.0
+    },
+    {
+     "id": "s16",
+     "building": "perforation-range",
+     "x": 11.66,
+     "z": 7.75,
+     "rot": 240.0,
+     "length": 0.0
+    },
+    {
+     "id": "s17",
+     "building": "crew-camp",
+     "x": 0.88,
+     "z": 13.97,
+     "rot": 240.0,
+     "length": 0.0
+    },
+    {
+     "id": "s18",
+     "building": "tank-battery",
+     "x": -13.0,
+     "z": 0.0,
+     "rot": 0.0,
+     "length": 0.0
+    },
+    {
+     "id": "s19",
+     "building": "tank-battery",
+     "x": -12.99,
+     "z": 7.5,
+     "rot": 0.0,
+     "length": 0.0
+    },
+    {
+     "id": "s20",
+     "building": "pumpjack",
+     "x": 3.79,
+     "z": 6.47,
+     "rot": 20.9,
+     "length": 0.0
+    },
+    {
+     "id": "s21",
+     "building": "pumpjack",
+     "x": -5.99,
+     "z": 4.51,
+     "rot": 279.9,
+     "length": 0.0
+    },
+    {
+     "id": "s22",
+     "building": "pumpjack",
+     "x": -7.5,
+     "z": -0.23,
+     "rot": 96.5,
+     "length": 0.0
+    },
+    {
+     "id": "s23",
+     "building": "pumpjack",
+     "x": -5.99,
+     "z": -4.52,
+     "rot": 353.1,
+     "length": 0.0
+    },
+    {
+     "id": "s24",
+     "building": "pumpjack",
+     "x": -1.79,
+     "z": -7.28,
+     "rot": 314.9,
+     "length": 0.0
+    },
+    {
+     "id": "s25",
+     "building": "pumpjack",
+     "x": 3.69,
+     "z": -6.53,
+     "rot": 156.9,
+     "length": 0.0
+    },
+    {
+     "id": "s26",
+     "building": "pumpjack",
+     "x": 11.3,
+     "z": 12.02,
+     "rot": 230.3,
+     "length": 0.0
+    },
+    {
+     "id": "s27",
+     "building": "pumpjack",
+     "x": 6.65,
+     "z": 15.1,
+     "rot": 63.1,
+     "length": 0.0
+    },
+    {
+     "id": "s28",
+     "building": "pumpjack",
+     "x": -15.85,
+     "z": 4.6,
+     "rot": 113.5,
+     "length": 0.0
+    },
+    {
+     "id": "s29",
+     "building": "pumpjack",
+     "x": -16.35,
+     "z": -2.2,
+     "rot": 310.5,
+     "length": 0.0
+    }
+   ],
+   "decor": [
+    {
+     "model": "decor-pipe-rack",
+     "x": 20.85,
+     "z": 2.13,
+     "rot": 261.0,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-crane",
+     "x": -2.48,
+     "z": 18.61,
+     "rot": 203.8,
+     "scale": 0.84
+    },
+    {
+     "model": "decor-lifeboat",
+     "x": -22.5,
+     "z": 9.7,
+     "rot": 43.6,
+     "scale": 0.87
+    },
+    {
+     "model": "decor-barrels",
+     "x": 19.75,
+     "z": -3.27,
+     "rot": 53.5,
+     "scale": 0.91
+    },
+    {
+     "model": "decor-crane",
+     "x": -18.61,
+     "z": 21.05,
+     "rot": 52.5,
+     "scale": 0.81
+    },
+    {
+     "model": "decor-crane",
+     "x": -22.01,
+     "z": 13.38,
+     "rot": 16.9,
+     "scale": 1.24
+    },
+    {
+     "model": "decor-barrels",
+     "x": -5.0,
+     "z": 19.11,
+     "rot": 148.3,
+     "scale": 1.19
+    },
+    {
+     "model": "decor-lifeboat",
+     "x": 15.18,
+     "z": 20.84,
+     "rot": 280.0,
+     "scale": 0.98
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": -22.38,
+     "z": -6.59,
+     "rot": 211.2,
+     "scale": 0.83
+    },
+    {
+     "model": "decor-lifeboat",
+     "x": -11.37,
+     "z": 19.96,
+     "rot": 159.1,
+     "scale": 0.85
+    },
+    {
+     "model": "decor-barrels",
+     "x": -14.39,
+     "z": 18.41,
+     "rot": 179.5,
+     "scale": 1.3
+    },
+    {
+     "model": "decor-crane",
+     "x": -20.39,
+     "z": 2.3,
+     "rot": 356.9,
+     "scale": 1.34
+    },
+    {
+     "model": "decor-barrels",
+     "x": 19.62,
+     "z": 21.7,
+     "rot": 11.6,
+     "scale": 0.82
+    },
+    {
+     "model": "decor-lifeboat",
+     "x": 21.95,
+     "z": 11.29,
+     "rot": 45.9,
+     "scale": 0.87
+    },
+    {
+     "model": "decor-barrels",
+     "x": -18.77,
+     "z": 0.95,
+     "rot": 16.7,
+     "scale": 1.16
+    },
+    {
+     "model": "decor-barrels",
+     "x": -9.17,
+     "z": 19.88,
+     "rot": 292.6,
+     "scale": 0.9
+    },
+    {
+     "model": "decor-barrels",
+     "x": -5.66,
+     "z": -20.31,
+     "rot": 57.7,
+     "scale": 1.33
+    },
+    {
+     "model": "decor-crane",
+     "x": -19.99,
+     "z": 7.13,
+     "rot": 199.4,
+     "scale": 1.28
+    },
+    {
+     "model": "decor-crane",
+     "x": -19.16,
+     "z": -6.74,
+     "rot": 319.2,
+     "scale": 1.0
+    },
+    {
+     "model": "decor-crane",
+     "x": 4.53,
+     "z": 20.46,
+     "rot": 10.4,
+     "scale": 1.25
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": -16.05,
+     "z": 20.05,
+     "rot": 310.4,
+     "scale": 1.33
+    },
+    {
+     "model": "decor-crane",
+     "x": -18.86,
+     "z": 3.99,
+     "rot": 147.2,
+     "scale": 1.11
+    },
+    {
+     "model": "decor-container",
+     "x": 7.56,
+     "z": 18.78,
+     "rot": 268.9,
+     "scale": 1.1
+    },
+    {
+     "model": "decor-barrels",
+     "x": -9.18,
+     "z": 22.09,
+     "rot": 36.7,
+     "scale": 0.98
+    }
+   ],
+   "walkways": [
+    {
+     "x": 28.5,
+     "z": 0.0,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 0
+    },
+    {
+     "x": -14.25,
+     "z": 24.68,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 120
+    },
+    {
+     "x": -14.25,
+     "z": -24.68,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 240
+    }
+   ],
+   "startBarrels": 6
+  },
+  {
+   "id": "deepwater-fpso",
+   "name": "Deepwater FPSO",
+   "setting": "offshore",
+   "biome": "deepsea",
+   "order": 4,
+   "description": "A floating production ship 200 km from shore, moored over 2,000 m of water. Four walkways, rusty decks and the hardest nights.",
+   "unlockAfter": "north-sea-jacket",
+   "shape": "deck",
+   "radius": 25.0,
+   "bgmDay": "bgm_day_offshore",
+   "bgmNight": "bgm_night",
+   "enemyOrder": [
+    "gas-kick",
+    "riser-eel",
+    "shale-slinger",
+    "corrosion-beetle",
+    "h2s-wraith",
+    "flash-fire",
+    "sour-bat",
+    "bitumen-ooze",
+    "paraffin-crawler",
+    "hydrate-golem",
+    "scale-brute",
+    "sand-crawler"
+   ],
+   "decorModels": [
+    "decor-container",
+    "decor-storage-tank",
+    "decor-pipe-rack",
+    "decor-barrels",
+    "decor-crane"
+   ],
+   "ground": "#7A6E64",
+   "groundAlt": "#695E55",
+   "accent": "#C2283A",
+   "water": "#0F2F4A",
+   "fog": "#56708A",
+   "skyDay": "#9DB4C8",
+   "skyNight": "#070D18",
+   "sun": "#FFF0D8",
+   "spawns": [
+    {
+     "id": "lane0",
+     "x": 24.04,
+     "z": 24.04,
+     "fromNight": 1
+    },
+    {
+     "id": "lane1",
+     "x": -24.04,
+     "z": 24.04,
+     "fromNight": 2
+    },
+    {
+     "id": "lane2",
+     "x": -24.04,
+     "z": -24.04,
+     "fromNight": 3
+    },
+    {
+     "id": "lane3",
+     "x": 24.04,
+     "z": -24.04,
+     "fromNight": 5
+    }
+   ],
+   "slots": [
+    {
+     "id": "s00",
+     "building": "blast-wall",
+     "x": 12.23,
+     "z": 7.57,
+     "rot": 45,
+     "length": 3.2
+    },
+    {
+     "id": "s01",
+     "building": "blast-wall",
+     "x": 9.9,
+     "z": 9.9,
+     "rot": 45,
+     "length": 3.2
+    },
+    {
+     "id": "s02",
+     "building": "blast-wall",
+     "x": 7.57,
+     "z": 12.23,
+     "rot": 45,
+     "length": 3.2
+    },
+    {
+     "id": "s03",
+     "building": "derrick-tower",
+     "x": 10.29,
+     "z": 1.52,
+     "rot": 45,
+     "length": 0.0
+    },
+    {
+     "id": "s04",
+     "building": "derrick-tower",
+     "x": 1.52,
+     "z": 10.29,
+     "rot": 45,
+     "length": 0.0
+    },
+    {
+     "id": "s05",
+     "building": "blast-wall",
+     "x": -7.57,
+     "z": 12.23,
+     "rot": 135,
+     "length": 3.2
+    },
+    {
+     "id": "s06",
+     "building": "blast-wall",
+     "x": -9.9,
+     "z": 9.9,
+     "rot": 135,
+     "length": 3.2
+    },
+    {
+     "id": "s07",
+     "building": "blast-wall",
+     "x": -12.23,
+     "z": 7.57,
+     "rot": 135,
+     "length": 3.2
+    },
+    {
+     "id": "s08",
+     "building": "derrick-tower",
+     "x": -1.52,
+     "z": 10.29,
+     "rot": 135,
+     "length": 0.0
+    },
+    {
+     "id": "s09",
+     "building": "derrick-tower",
+     "x": -10.29,
+     "z": 1.52,
+     "rot": 135,
+     "length": 0.0
+    },
+    {
+     "id": "s10",
+     "building": "blast-wall",
+     "x": -12.23,
+     "z": -7.57,
+     "rot": 225,
+     "length": 3.2
+    },
+    {
+     "id": "s11",
+     "building": "blast-wall",
+     "x": -9.9,
+     "z": -9.9,
+     "rot": 225,
+     "length": 3.2
+    },
+    {
+     "id": "s12",
+     "building": "blast-wall",
+     "x": -7.57,
+     "z": -12.23,
+     "rot": 225,
+     "length": 3.2
+    },
+    {
+     "id": "s13",
+     "building": "derrick-tower",
+     "x": -10.29,
+     "z": -1.52,
+     "rot": 225,
+     "length": 0.0
+    },
+    {
+     "id": "s14",
+     "building": "derrick-tower",
+     "x": -1.52,
+     "z": -10.29,
+     "rot": 225,
+     "length": 0.0
+    },
+    {
+     "id": "s15",
+     "building": "blast-wall",
+     "x": 7.57,
+     "z": -12.23,
+     "rot": 315,
+     "length": 3.2
+    },
+    {
+     "id": "s16",
+     "building": "blast-wall",
+     "x": 9.9,
+     "z": -9.9,
+     "rot": 315,
+     "length": 3.2
+    },
+    {
+     "id": "s17",
+     "building": "blast-wall",
+     "x": 12.23,
+     "z": -7.57,
+     "rot": 315,
+     "length": 3.2
+    },
+    {
+     "id": "s18",
+     "building": "derrick-tower",
+     "x": 1.52,
+     "z": -10.29,
+     "rot": 315,
+     "length": 0.0
+    },
+    {
+     "id": "s19",
+     "building": "derrick-tower",
+     "x": 10.29,
+     "z": -1.52,
+     "rot": 315,
+     "length": 0.0
+    },
+    {
+     "id": "s20",
+     "building": "company-office",
+     "x": 0.0,
+     "z": 14.0,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s21",
+     "building": "perforation-range",
+     "x": -14.0,
+     "z": 0.0,
+     "rot": 0.0,
+     "length": 0.0
+    },
+    {
+     "id": "s22",
+     "building": "crew-camp",
+     "x": -0.0,
+     "z": -14.0,
+     "rot": 90.0,
+     "length": 0.0
+    },
+    {
+     "id": "s23",
+     "building": "crew-camp",
+     "x": 14.0,
+     "z": -0.0,
+     "rot": 180.0,
+     "length": 0.0
+    },
+    {
+     "id": "s24",
+     "building": "tank-battery",
+     "x": 5.2,
+     "z": 9.12,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s25",
+     "building": "tank-battery",
+     "x": -5.2,
+     "z": 9.12,
+     "rot": 270.0,
+     "length": 0.0
+    },
+    {
+     "id": "s26",
+     "building": "tank-battery",
+     "x": -9.12,
+     "z": 5.2,
+     "rot": 0.0,
+     "length": 0.0
+    },
+    {
+     "id": "s27",
+     "building": "pumpjack",
+     "x": 6.86,
+     "z": 3.03,
+     "rot": 63.0,
+     "length": 0.0
+    },
+    {
+     "id": "s28",
+     "building": "pumpjack",
+     "x": -6.95,
+     "z": -2.81,
+     "rot": 133.6,
+     "length": 0.0
+    },
+    {
+     "id": "s29",
+     "building": "pumpjack",
+     "x": -2.96,
+     "z": -6.89,
+     "rot": 22.9,
+     "length": 0.0
+    },
+    {
+     "id": "s30",
+     "building": "pumpjack",
+     "x": 3.04,
+     "z": -6.86,
+     "rot": 280.2,
+     "length": 0.0
+    },
+    {
+     "id": "s31",
+     "building": "pumpjack",
+     "x": 6.87,
+     "z": -3.01,
+     "rot": 84.1,
+     "length": 0.0
+    },
+    {
+     "id": "s32",
+     "building": "pumpjack",
+     "x": 15.9,
+     "z": 4.41,
+     "rot": 45.3,
+     "length": 0.0
+    },
+    {
+     "id": "s33",
+     "building": "pumpjack",
+     "x": 4.49,
+     "z": 15.88,
+     "rot": 321.1,
+     "length": 0.0
+    },
+    {
+     "id": "s34",
+     "building": "pumpjack",
+     "x": -3.75,
+     "z": 16.07,
+     "rot": 50.6,
+     "length": 0.0
+    },
+    {
+     "id": "s35",
+     "building": "pumpjack",
+     "x": -16.02,
+     "z": 3.96,
+     "rot": 286.2,
+     "length": 0.0
+    }
+   ],
+   "decor": [
+    {
+     "model": "decor-pipe-rack",
+     "x": -23.12,
+     "z": -14.05,
+     "rot": 74.3,
+     "scale": 0.97
+    },
+    {
+     "model": "decor-storage-tank",
+     "x": -16.98,
+     "z": -19.92,
+     "rot": 334.8,
+     "scale": 1.31
+    },
+    {
+     "model": "decor-barrels",
+     "x": -20.14,
+     "z": -4.83,
+     "rot": 250.7,
+     "scale": 1.35
+    },
+    {
+     "model": "decor-barrels",
+     "x": -17.45,
+     "z": -23.0,
+     "rot": 97.0,
+     "scale": 1.27
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": -20.22,
+     "z": -20.15,
+     "rot": 213.4,
+     "scale": 1.2
+    },
+    {
+     "model": "decor-storage-tank",
+     "x": -21.12,
+     "z": -12.08,
+     "rot": 314.8,
+     "scale": 1.34
+    },
+    {
+     "model": "decor-container",
+     "x": 19.14,
+     "z": -23.13,
+     "rot": 309.2,
+     "scale": 1.28
+    },
+    {
+     "model": "decor-barrels",
+     "x": 15.25,
+     "z": -20.69,
+     "rot": 113.7,
+     "scale": 0.98
+    },
+    {
+     "model": "decor-crane",
+     "x": 21.31,
+     "z": 22.87,
+     "rot": 268.2,
+     "scale": 0.96
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": 22.7,
+     "z": -3.33,
+     "rot": 181.0,
+     "scale": 1.19
+    },
+    {
+     "model": "decor-barrels",
+     "x": -1.13,
+     "z": -23.09,
+     "rot": 166.3,
+     "scale": 1.09
+    },
+    {
+     "model": "decor-crane",
+     "x": -1.95,
+     "z": -20.12,
+     "rot": 26.3,
+     "scale": 1.21
+    },
+    {
+     "model": "decor-storage-tank",
+     "x": -8.34,
+     "z": 20.31,
+     "rot": 260.8,
+     "scale": 1.06
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": -21.12,
+     "z": 22.2,
+     "rot": 215.6,
+     "scale": 0.92
+    },
+    {
+     "model": "decor-crane",
+     "x": -19.03,
+     "z": 8.32,
+     "rot": 85.5,
+     "scale": 1.11
+    },
+    {
+     "model": "decor-barrels",
+     "x": 19.24,
+     "z": -14.9,
+     "rot": 23.9,
+     "scale": 1.16
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": 1.84,
+     "z": 20.36,
+     "rot": 47.1,
+     "scale": 1.17
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": 22.46,
+     "z": 9.95,
+     "rot": 69.6,
+     "scale": 1.08
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": -15.73,
+     "z": 22.91,
+     "rot": 264.9,
+     "scale": 0.88
+    },
+    {
+     "model": "decor-barrels",
+     "x": -13.91,
+     "z": 20.29,
+     "rot": 8.5,
+     "scale": 1.11
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": 20.1,
+     "z": 4.17,
+     "rot": 320.9,
+     "scale": 0.95
+    },
+    {
+     "model": "decor-crane",
+     "x": 22.34,
+     "z": 13.74,
+     "rot": 36.8,
+     "scale": 1.15
+    },
+    {
+     "model": "decor-storage-tank",
+     "x": -22.41,
+     "z": 5.64,
+     "rot": 91.8,
+     "scale": 1.19
+    },
+    {
+     "model": "decor-pipe-rack",
+     "x": 21.21,
+     "z": 16.83,
+     "rot": 161.1,
+     "scale": 1.16
+    }
+   ],
+   "walkways": [
+    {
+     "x": 20.86,
+     "z": 20.86,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 45
+    },
+    {
+     "x": -20.86,
+     "z": 20.86,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 135
+    },
+    {
+     "x": -20.86,
+     "z": -20.86,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 225
+    },
+    {
+     "x": 20.86,
+     "z": -20.86,
+     "width": 7.0,
+     "length": 12.0,
+     "rot": 315
+    }
+   ],
+   "startBarrels": 6
+  }
+ ]
+}

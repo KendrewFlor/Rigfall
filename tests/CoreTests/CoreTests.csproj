@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Unit tests for the engine-free game rules in Assets/Rigfall/Scripts/Core.
+    No NuGet packages: the tests use a tiny built-in runner (Runner.cs), so
+    `dotnet run` needs nothing but the .NET SDK. LangVersion 9 matches what Unity 6 compiles.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <AssemblyName>Rigfall.CoreTests</AssemblyName>
+    <RootNamespace>Rigfall.CoreTests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Assets/Rigfall/Scripts/Core/**/*.cs" Link="Core/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

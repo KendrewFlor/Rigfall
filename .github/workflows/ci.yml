@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Least privilege: read-only token, nothing else.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DOTNET_CLI_TELEMETRY_OPTOUT: "1"
+  DOTNET_NOLOGO: "1"
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      # Every action is pinned to a full commit SHA (the tag is in the comment for humans and Dependabot).
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0 # full history so the scanner can check commit trailers
+
+      - name: Security scan (hidden Unicode, prompt injection, secrets, supply chain, game-code hygiene)
+        run: python3 tools/security_scan.py
+
+      - name: Game data, generated maps and models are consistent
+        run: |
+          python3 tools/validate_data.py
+          python3 tools/make_maps.py --check
+          python3 blender/build_models.py --check
+
+      - name: Python tests (standard library only)
+        run: python3 -m unittest discover -s tests/python -v
+
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Core game-rule tests (C#, no NuGet packages)
+        run: dotnet run --project tests/CoreTests/CoreTests.csproj -c Release

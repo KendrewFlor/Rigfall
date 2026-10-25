@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "driller", "name": "Driller", "role": "Melee bruiser", "weaponType": "Drill bit",
+      "description": "Swings a drill bit in wide arcs and charges straight through a kick. Easy to learn and hits hard up close.",
+      "flavor": "Weight on bit, rotary on. Make hole.",
+      "maxHp": 140, "moveSpeed": 6.2, "armor": 2, "commandRadius": 6.0,
+      "startingWeapon": "tricone-bit", "model": "hero-driller", "color": "#FF6A13",
+      "ability": "spud-in", "abilityName": "Spud In", "abilityCooldown": 8,
+      "abilityDescription": "Dash forward with the bit spinning, hitting everything in your path for 200% weapon damage."
+    },
+    {
+      "id": "toolpusher", "name": "Toolpusher", "role": "Tank and commander", "weaponType": "Pipe tools",
+      "description": "The boss of the rig floor. Slow, heavy slams that knock enemies back, and a horn that rallies the whole crew.",
+      "flavor": "Nobody goes home until the casing is on bottom.",
+      "maxHp": 190, "moveSpeed": 5.6, "armor": 4, "commandRadius": 9.0,
+      "startingWeapon": "pipe-wrench", "model": "hero-toolpusher", "color": "#F2C200",
+      "ability": "rally-horn", "abilityName": "Rally Horn", "abilityCooldown": 18,
+      "abilityDescription": "Units within 12 m heal 30% and deal 40% more damage for 6 seconds."
+    },
+    {
+      "id": "perforator", "name": "Perforation Specialist", "role": "Ranged damage", "weaponType": "Perforating guns",
+      "description": "A completions hand who shoots shaped charges. Fragile but deadly at range.",
+      "flavor": "Perforate the casing, connect the well to the rock.",
+      "maxHp": 110, "moveSpeed": 6.4, "armor": 1, "commandRadius": 6.0,
+      "startingWeapon": "wireline-pistol", "model": "hero-perforator", "color": "#3C7FD6",
+      "ability": "shaped-charge-volley", "abilityName": "Shaped Charge Volley", "abilityCooldown": 10,
+      "abilityDescription": "Fire 9 shaped charges in a wide cone, each for 120% weapon damage."
+    },
+    {
+      "id": "mud-engineer", "name": "Mud Engineer", "role": "Crowd control", "weaponType": "Mud guns",
+      "description": "Sprays weighted drilling fluid that slows and pushes enemies away from the walls.",
+      "flavor": "Keep the hydrostatic above the pore pressure and nothing comes up the hole.",
+      "maxHp": 130, "moveSpeed": 6.0, "armor": 2, "commandRadius": 7.0,
+      "startingWeapon": "mud-hose", "model": "hero-mud-engineer", "color": "#8B6B47",
+      "ability": "kill-mud", "abilityName": "Kill Mud", "abilityCooldown": 12,
+      "abilityDescription": "Unleash a wave of kill-weight mud: enemies within 8 m take 40 damage, are pushed back and slowed by 50% for 4 seconds."
+    },
+    {
+      "id": "geophysicist", "name": "Geophysicist", "role": "Area damage", "weaponType": "Seismic sources",
+      "description": "Lobs seismic pulses that burst on impact. Weak alone, devastating on crowds.",
+      "flavor": "Every wave you send down comes back with a story.",
+      "maxHp": 105, "moveSpeed": 6.0, "armor": 1, "commandRadius": 6.0,
+      "startingWeapon": "thumper-staff", "model": "hero-geophysicist", "color": "#2FA36B",
+      "ability": "seismic-shot", "abilityName": "Seismic Shot", "abilityCooldown": 14,
+      "abilityDescription": "Detonate a shot point: 60 damage to enemies within 7 m and stun them for 1.5 seconds."
+    }
+  ]
+}
